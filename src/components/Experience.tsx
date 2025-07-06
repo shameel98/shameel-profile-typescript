@@ -4,50 +4,36 @@ import AnimatedCard from "@/components/ui/AnimatedCard";
 
 const experiences = [
   {
-    id: "ceylon",
-    title: "DevOps Engineer - AWS",
-    company: "Ceylon Solutions",
-    logo: "https://media.licdn.com/dms/image/v2/C560BAQFa05jN20KuDA/company-logo_400_400/company-logo_400_400/0/1630651612654/ceylon_solutions_logo?e=1747872000&v=beta&t=CxSzntGxyfCWCGR4tYTP8otPaZAPZBjxEOEeT-Rn-ks",
-    period: "2023 - Present",
-    location: "Colombo District, Sri Lanka",
+    id: "Saviynt India Pvt Ltd",
+    title: "Snr Cloud Engineer",
+    company: "Saviynt India Pvt Ltd",
+    logo: "/images/saviynt.jpeg",
+    period: "2024 - Present",
+    location: "Bangalore, India",
     description: [
-      "Leading AWS cloud infrastructure implementation and optimization",
+      "AWS cloud infrastructure implementation and optimization",
       "Designing and implementing CI/CD pipelines using AWS services",
-      "Managing cloud security and compliance requirements",
+      "Managing cloud security , Infrastructure and compliance requirements",
       "Automating infrastructure deployment using Terraform and AWS CloudFormation",
       "Monitoring and optimizing cloud resources for cost efficiency"
     ]
   },
   {
-    id: "tech-venturas",
-    title: "DevOps Engineer - Azure",
-    company: "Tech Venturas",
-    logo: "https://media.licdn.com/dms/image/v2/C560BAQFKdBktaLZF_A/company-logo_400_400/company-logo_400_400/0/1648031425806/tech_venturas_logo?e=1747872000&v=beta&t=Av-ecImcfsjvan_AnRxrxI8IUTiE13IovAMgNz6bD2U",
-    period: "2022 - 2023",
-    location: "Colombo, Sri Lanka",
+    id: "Oracle Cerner Pvt Ltd",
+    title: "System Engineer",
+    company: "Oracle Cerner Pvt Ltd",
+    logo: "/images/Resized-OC-logo.webp",
+    period: "2020 - 2024",
+    location: "Bangalore, India",
     description: [
-      "Implemented and managed Azure DevOps pipelines for continuous integration and deployment",
-      "Configured and maintained Azure Kubernetes Service (AKS) clusters",
+      "Implemented and managed AWS DevOps pipelines for continuous integration and deployment",
+      "Configured and maintained EKS Kubernetes Service (EKS) clusters",
       "Automated infrastructure provisioning using Terraform and Azure Resource Manager templates",
       "Implemented monitoring and alerting solutions using Azure Monitor and Application Insights",
       "Collaborated with development teams to improve application performance and reliability"
     ]
-  },
-  {
-    id: "hsenid",
-    title: "Trainee DevOps Engineer",
-    company: "hSenid Mobile Solutions",
-    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFiIq28ZK5wdw/company-logo_400_400/company-logo_400_400/0/1631369941555?e=1747872000&v=beta&t=y8poGrUQHBZngyiF6En16PDFaV99xn8vDf-6It0sLxY",
-    period: "2021 - 2022",
-    location: "Colombo, Sri Lanka",
-    description: [
-      "Assisted in setting up and maintaining CI/CD pipelines using Jenkins",
-      "Learned and implemented Docker containerization for applications",
-      "Supported the team in cloud infrastructure management",
-      "Participated in code reviews and testing processes",
-      "Gained hands-on experience with version control systems and deployment strategies"
-    ]
   }
+  
 ];
 
 const Experience = () => {

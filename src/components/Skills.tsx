@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import AnimatedCard from "@/components/ui/AnimatedCard";
 
@@ -12,13 +11,13 @@ interface Skill {
 const skills: Skill[] = [
   {
     name: "AWS",
-    icon: "https://media.licdn.com/dms/image/v2/C560BAQE0fp2sCqnVLg/company-logo_400_400/company-logo_400_400/0/1738855736997/amazon_web_services_logo?e=1747872000&v=beta&t=dRgdvz2IxhXQ1E7-YcPcbs6NQjMgyGA5iJPBnVva2Go",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
     proficiency: 95,
     category: "Cloud"
   },
   {
     name: "Azure",
-    icon: "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_400_400/company-logo_400_400/0/1630652622688/microsoft_logo?e=1747872000&v=beta&t=ha3UxF4odT1qORIUw3dJQnwtivbJzsUzweaRuY2gLiA",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg",
     proficiency: 85,
     category: "Cloud"
   },
@@ -72,7 +71,7 @@ const skills: Skill[] = [
   },
   {
     name: "AWS CloudFormation",
-    icon: "https://www.svgrepo.com/show/376356/aws-cloudformation.svg",
+    icon: "https://www.svgrepo.com/show/376356/aws-cloud.svg",
     proficiency: 85,
     category: "IaC"
   },
@@ -84,7 +83,7 @@ const skills: Skill[] = [
   }
 ];
 
-const categories = Array.from(new Set(skills.map(skill => skill.category)));
+const categories = ["All", ...Array.from(new Set(skills.map(skill => skill.category)))];
 
 const Skills = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -94,28 +93,14 @@ const Skills = () => {
     : skills.filter(skill => skill.category === selectedCategory);
 
   return (
-    <section
-      id="skills"
-      className="py-20 md:py-28 relative"
-    >
+    <section id="skills" className="py-20 md:py-28 relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="chip mb-4">My Expertise</span>
           <h2 className="section-title">Technical Skills</h2>
         </div>
-        
+
         <div className="flex flex-wrap justify-center gap-2 mb-12">
-          <button
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-              selectedCategory === "All"
-                ? "bg-rifkhan text-white"
-                : "bg-accent text-accent-foreground hover:bg-accent/80"
-            }`}
-            onClick={() => setSelectedCategory("All")}
-          >
-            All
-          </button>
-          
           {categories.map(category => (
             <button
               key={category}
@@ -130,7 +115,7 @@ const Skills = () => {
             </button>
           ))}
         </div>
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {filteredSkills.map((skill) => (
             <AnimatedCard
@@ -143,6 +128,7 @@ const Skills = () => {
                     src={skill.icon}
                     alt={skill.name}
                     className="w-8 h-8 object-contain"
+                    loading="lazy"
                   />
                 </div>
                 <div>
@@ -155,7 +141,7 @@ const Skills = () => {
                 <div
                   className="bg-rifkhan h-2 rounded-full"
                   style={{ width: `${skill.proficiency}%` }}
-                ></div>
+                />
               </div>
               <p className="text-right text-sm text-foreground/70 mt-1">
                 {skill.proficiency}%

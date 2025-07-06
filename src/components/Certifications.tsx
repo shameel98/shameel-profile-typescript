@@ -15,44 +15,21 @@ interface Certification {
 const certifications: Certification[] = [
   {
     id: "aws-ccp",
-    title: "AWS Certified Cloud Practitioner",
+    title: "AWS Certified Solution Architect",
     organization: "Amazon Web Services",
-    logo: "https://media.licdn.com/dms/image/v2/C560BAQE0fp2sCqnVLg/company-logo_400_400/company-logo_400_400/0/1738855736997/amazon_web_services_logo?e=1747872000&v=beta&t=dRgdvz2IxhXQ1E7-YcPcbs6NQjMgyGA5iJPBnVva2Go",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
     date: "2022",
     description: "Fundamental understanding of AWS Cloud services, architecture, security, and cost management."
   },
   {
     id: "azure-fundamentals",
-    title: "Microsoft Certified: Azure Fundamentals",
+    title: "Microsoft Certified: Azure Administrator",
     organization: "Microsoft",
-    logo: "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_400_400/company-logo_400_400/0/1630652622688/microsoft_logo?e=1747872000&v=beta&t=ha3UxF4odT1qORIUw3dJQnwtivbJzsUzweaRuY2gLiA",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg",
     date: "2022",
     description: "Foundational knowledge of cloud concepts, Azure services, security, privacy, compliance, and trust."
   },
-  {
-    id: "wso2-api",
-    title: "WSO2 Certified API Manager Practitioner",
-    organization: "WSO2",
-    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQFchI_Xw-FFhQ/company-logo_400_400/company-logo_400_400/0/1630476267944/wso2_logo?e=1747872000&v=beta&t=CQx1oqeaazLs7hk4XK-cZJM3SYvZSbUoSIM9RYjp87Y",
-    date: "2021",
-    description: "Expertise in designing, implementing, and managing API solutions using WSO2 API Manager."
-  },
-  {
-    id: "palo-alto",
-    title: "Palo Alto Networks Micro-Credential for Kubernetes Network Security Administrator",
-    organization: "Palo Alto Networks",
-    logo: "https://media.licdn.com/dms/image/v2/C560BAQFZg72Sfni4SA/company-logo_400_400/company-logo_400_400/0/1657225156841/palo_alto_networks_logo?e=1747872000&v=beta&t=99DiAMEAtx7YYyt1OTnMRBieDDUFaa0Ov4Qb0UB0zl8",
-    date: "2022",
-    description: "Specialized knowledge in securing Kubernetes clusters and containerized applications."
-  },
-  {
-    id: "apisec",
-    title: "API Security Fundamentals - Certificate of Completion",
-    organization: "APIsec University",
-    logo: "https://media.licdn.com/dms/image/v2/C560BAQF-zpLF3d6kEQ/company-logo_400_400/company-logo_400_400/0/1678078423861/apisec_university_logo?e=1747872000&v=beta&t=8EBqHQiNvz0WqdrMgiw4KvNKMX-7M_fmwsRen4JYtkI",
-    date: "2023",
-    description: "Comprehensive understanding of API security principles, threats, and best practices for protection."
-  }
+  
 ];
 
 const Certifications = () => {

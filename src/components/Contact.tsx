@@ -92,7 +92,7 @@ const Contact = () => {
                     value={formState.email}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border border-border bg-white/50 dark:bg-white/5 focus:outline-none focus:ring-2 focus:ring-rifkhan/50"
-                    placeholder="john@example.com"
+                    placeholder="shameel98@gmail.com"
                     required
                   />
                 </div>
@@ -149,12 +149,13 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium text-foreground">Email</h4>
                     <a
-                      href="mailto:contact@rifkhanmohamed.com"
+                      href="mailto:shameel98@gmail.com"
                       className="text-rifkhan hover:text-rifkhan-dark transition-colors"
                     >
-                      contact@rifkhanmohamed.com
+                      shameel98@gmail.com
                     </a>
                   </div>
+                  
                 </div>
                 
                 <div className="flex items-start space-x-4">
@@ -163,10 +164,23 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-foreground">Location</h4>
-                    <p className="text-foreground/70">Colombo, Sri Lanka 🇱🇰</p>
+                    <p className="text-foreground/70">Bangalore India</p>
                   </div>
+                  
                 </div>
+                <div className="flex items-start space-x-4">
+                  <div className="bg-rifkhan/10 text-rifkhan p-3 rounded-full">
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-foreground">Phone</h4>
+                    <p className="text-foreground/70">+91 9611518505</p>
+                  </div>
+                  
+                </div>
+                
               </div>
+              
             </AnimatedCard>
             
             <AnimatedCard className="glass-card rounded-2xl p-8">
@@ -177,7 +191,7 @@ const Contact = () => {
               
               <div className="flex items-center justify-around">
                 <a
-                  href="https://linkedin.com/in/rifkhanmd"
+                  href="https://linkedin.com/in/shameelahmed98/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-rifkhan/10 rounded-full text-rifkhan hover:bg-rifkhan hover:text-white transition-colors"
@@ -189,7 +203,7 @@ const Contact = () => {
                 </a>
                 
                 <a
-                  href="https://github.com/rifkhanmd"
+                  href="https://github.com/shameel98"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-rifkhan/10 rounded-full text-rifkhan hover:bg-rifkhan hover:text-white transition-colors"
@@ -201,7 +215,7 @@ const Contact = () => {
                 </a>
                 
                 <a
-                  href="https://twitter.com/rifkhanmd"
+                  href="https://twitter.com/shameelahmed98"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-rifkhan/10 rounded-full text-rifkhan hover:bg-rifkhan hover:text-white transition-colors"

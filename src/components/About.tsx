@@ -19,18 +19,18 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-6 text-foreground">My Background</h3>
             <div className="space-y-4 text-foreground/80">
               <p>
-                I'm a DevOps Engineer specializing in AWS cloud services based in Sri Lanka 🇱🇰. 
+                I'm a DevOps Engineer specializing in AWS cloud services based in INDIA. 
                 With expertise in cloud infrastructure, CI/CD pipelines, and DevSecOps practices,
                 I help organizations build, deploy, and manage scalable applications in the cloud.
               </p>
               <p>
-                My journey in technology began with a BSc (Hons) in Network Systems Engineering 
-                from the University of Sunderland, where I developed a strong foundation in 
-                network architecture and systems design.
+                My journey in technology began with a MCA From the Brindavan College of Engineering,
+                where I developed a strong foundation in 
+              Cloud Computing.
               </p>
               <p>
-                I'm passionate about sharing knowledge with the wider community as an AWS Community 
-                Builder and active participant in cybersecurity initiatives through TryHackMe.
+                I'm passionate about sharing knowledge with the wider community as an Cloud Community 
+                Builder.
               </p>
             </div>
           </AnimatedCard>

@@ -40,8 +40,8 @@ const Header = () => {
           href="#home"
           className="text-xl font-medium text-foreground flex items-center space-x-2"
         >
-          <span className="text-rifkhan font-bold">RM</span>
-          <span className="hidden sm:inline-block">Rifkhan Mohamed</span>
+          <span className="text-rifkhan font-bold">SHAMEEL AHMED FJ</span>
+          <span className="hidden sm:inline-block"></span>
         </a>
 
         {/* Desktop Navigation */}

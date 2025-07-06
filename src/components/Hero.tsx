@@ -1,13 +1,13 @@
-
 import { useEffect, useState } from "react";
 import { ChevronDown } from "lucide-react";
 import AnimatedCard from "@/components/ui/AnimatedCard";
 
 const typewriterTexts = [
-  "AWS DevOps Engineer",
-  "Cloud Infrastructure Expert",
-  "AWS Community Builder",
-  "Cybersecurity Enthusiast"
+  "DevOps Engineer",
+  "Cloud Infrastructure",
+  "Platform Engineer",
+  "Azure Certified",
+  "Cloud Enthusiast"
 ];
 
 const Hero = () => {
@@ -49,22 +49,22 @@ const Hero = () => {
       id="home"
       className="min-h-screen relative flex flex-col justify-center items-center pt-16 overflow-hidden"
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-rifkhan/5 to-transparent dark:from-rifkhan-dark/10 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-Shameel Ahmed/5 to-transparent dark:from-Shameel Ahmed-dark/10 z-0"></div>
       
       <div className="container mx-auto px-4 relative z-10 flex flex-col items-center justify-center">
         <AnimatedCard className="glass-card rounded-2xl p-8 md:p-12 max-w-4xl mx-auto text-center">
           <div className="stagger-item stagger-delay-1 mb-6 relative inline-block">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/30 shadow-lg mx-auto">
               <img
-                src="https://media.licdn.com/dms/image/v2/D5603AQFtzTaTDhe01Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731918146600?e=1747872000&v=beta&t=H9JtYahQr8sqbCEifAr4kjEbV3OWZ_cRlNIqX01WPxA"
-                alt="Rifkhan Mohamed"
+                src="public/images/shameellinkedin.jpeg"
+                alt="Shameel Ahmed"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
           
           <h1 className="stagger-item stagger-delay-2 text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4">
-            Rifkhan Mohamed
+            Shameel Ahmed
           </h1>
           
           <div className="stagger-item stagger-delay-3 h-10 mb-6">
@@ -96,7 +96,7 @@ const Hero = () => {
           
           <div className="stagger-item stagger-delay-6 flex items-center justify-center space-x-6">
             <a
-              href="https://github.com/rifkhanmd"
+              href="https://github.com/shameel98"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors"
@@ -107,7 +107,7 @@ const Hero = () => {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/rifkhanmd"
+              href="https://linkedin.com/in/shameelahmed98/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors"
@@ -118,7 +118,7 @@ const Hero = () => {
               </svg>
             </a>
             <a
-              href="https://twitter.com/rifkhanmd"
+              href="https://twitter.com/shameel98"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors"
@@ -146,3 +146,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

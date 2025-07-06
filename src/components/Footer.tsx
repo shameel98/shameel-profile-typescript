@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <div className="flex items-center">
-              <span className="text-xl font-bold text-rifkhan mr-1">RM</span>
-              <span className="text-foreground font-medium">Rifkhan Mohamed</span>
+              <span className="text-xl font-bold text-rifkhan mr-1">Shameel Ahmed</span>
+              <span className="text-foreground font-medium"></span>
             </div>
             <p className="text-sm text-foreground/60 mt-1">
               DevOps Engineer • AWS Specialist • Cloud Architect
@@ -22,7 +22,7 @@ const Footer = () => {
             <p className="text-sm">
               © {currentYear} • Crafted with 
               <Heart className="inline-block w-4 h-4 mx-1 text-rifkhan" />
-              in Sri Lanka 🇱🇰
+              in Shameel 
             </p>
           </div>
         </div>
